@@ -1,0 +1,5 @@
+cd ~
+mkdir my-line-bot
+cd my-line-bot
+
+python -m venv venv
