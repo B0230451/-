@@ -38,10 +38,3 @@ def handle_message(event):
 if __name__ == "__main__":
     app.run()
 
-# 別忘了先啟動虛擬環境！
-source bin/activate
-
-pip install flask
-pip install line-bot-sdk
-
-pip freeze > requirements.txt
